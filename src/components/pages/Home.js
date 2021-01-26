@@ -2,13 +2,12 @@ import React from 'react';
 import '../../App.css';
 import Typing from '../Typing';
 import Footer from '../Footer';
-import HeroSection from '../HeroSection';
+import Header from '../Header';
 
 function Home () {
     return (
         <>
-            <HeroSection />
-            <Typing />
+            <Header />
             <Footer />
         </>
     );

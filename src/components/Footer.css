@@ -1,6 +1,6 @@
 .footer-container {
-    background-color: #1f2833;
-    padding: 8rem 0 2rem 0;
+    background-color: #242424;
+    padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
     align-items: center;
     text-align: center;
   
-    margin-bottom: 36px;
+    margin-bottom: 28px;
     padding: 24px;
     color: #ffffff;
 }
@@ -22,11 +22,11 @@
 .footer-subscription-heading {
     margin-bottom: 24px;
     font-size: 24px;
-    color: #ffffff;
+    color: #66fcf1;
 }
   
 .footer-subscription-text {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-size: 20px;
     color: #c5c6c7;
 }
@@ -36,7 +36,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
   
 .footer-link-wrapper {
@@ -48,8 +48,9 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 30px;
+    margin-top: 14px;
     text-align: left;
-    width: 180px;
+    width: 200px;
     box-sizing: border-box;
 }
   
@@ -64,7 +65,6 @@
 .footer-link-items a {
     color: #c5c6c7;
     text-decoration: none;
-    margin-bottom: 0.5rem;
 }
   
 .footer-link-items a:hover {
@@ -75,7 +75,7 @@
 /* Social Icons */
 .social-icon-link {
     color: #66fcf1;
-    font-size: 24px;
+    font-size: 32px;
 }
   
 .social-media {
@@ -97,19 +97,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
-}
-  
-.social-logo {
-    color: #66fcf1;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
+    width: 175px;
 }
   
 @media screen and (max-width: 820px) {
@@ -121,10 +109,6 @@
         width: 100%;
     }
     
-    .btn {
-        width: 100%;
-    }
-    
     .footer-link-wrapper {
         flex-direction: column;
     }
@@ -132,7 +116,29 @@
     .social-media-wrap {
         flex-direction: column;
     }
+
+    .footer-link-items {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px;
+        width: 125px;
+    }
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
+    .footer-link-items {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 16px;
+        width: 132px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer-link-items {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+        width: 120px;
+    }
 }

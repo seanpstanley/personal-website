@@ -1,12 +1,9 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
-import NewCard from './NewCard'
 
 function Cards() {
     return (
-        <div>
-            <NewCard />
         <div className='cards'>
             <h1>Check out these EPIC destinations!</h1>
             <div className='cards__container'>
@@ -47,7 +44,6 @@ function Cards() {
                     </ul>
                 </div>
             </div>
-        </div>
         </div>
     )
 }
