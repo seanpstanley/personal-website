@@ -30,7 +30,7 @@ export default function TypingEffect(props) {
                 150, parseInt(Math.random() * 350)));
 
     return () => clearTimeout(timeout);
-  }, [subIndex, index, reverse]);
+  }, [words, subIndex, index, reverse]);
 
   // blinker
   useEffect(() => {
