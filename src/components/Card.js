@@ -1,7 +1,7 @@
 import React from 'react';
-import './NewCard.css';
+import './Cards.css';
 
-export default function NewCard(props) {
+export default function Card(props) {
     return (
         <div className='card'>
             <div className='card-link'>
@@ -9,13 +9,13 @@ export default function NewCard(props) {
                     <img className='profile-image' src={props.img} alt={props.alt} />
                     <ul className='social-list'>
                         <li className='social-item'>
-                            <a aria-label='{props.link_name[0]}' className='social-link' href='{props.links[0]}'>
-                            <i class={'fab fa-github'} />
+                            <a aria-label={props.link_names[0]} className='social-link' href={props.links[0]}>
+                                <i class={props.icons[0]} />
                             </a>
                         </li>
                         <li className='social-item'>
-                            <a aria-label='{props.link_name[1]}' className='social-link' href='{props.links[1]}' >
-                                <i class='' />
+                            <a aria-label={props.link_names[1]} className='social-link' href={props.links[1]}>
+                                <i class={props.icons[1]} />
                             </a>
                         </li>
                     </ul>

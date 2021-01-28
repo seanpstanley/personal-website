@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // from https://levelup.gitconnected.com/typing-effect-in-react-56697def0473
-export default function TypingAgain(props) {
+export default function TypingEffect(props) {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
@@ -42,7 +42,7 @@ export default function TypingAgain(props) {
 
     return (
         <h1>
-            c:\	&gt;{`${words[index].substring(0, subIndex)}${blink ? "_" : " "}`}
+            c:\&gt;{`${words[index].substring(0, subIndex)}${blink ? "_" : " "}`}
         </h1>
     );
 }

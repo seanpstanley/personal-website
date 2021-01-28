@@ -1,20 +1,20 @@
 import React from 'react'
-import './NewCard.css'
-import NewCard from './NewCard'
-import TypingAgain from './TypingAgain'
+import './Cards.css'
+import Card from './Card'
+import TypingEffect from './TypingEffect'
 
-export default function NewCards() {
+export default function ExperienceCards() {
     return (
         <div className='cards'>
-            <TypingAgain 
+            <TypingEffect 
                 words={["cd ..", "cd /work_experience"]}
             />
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <NewCard 
+                        <Card 
                             company='University of Florida'
-                            img='../../images/uf_logo_100.png'
+                            img='../../images/uf_seal.png'
                             alt='UF logo'
                             dates='December 2020 – Present'
                             position='Undergraduate Researcher, PPCards'
@@ -23,16 +23,16 @@ export default function NewCards() {
                                 OpenCV&#39;s deep learning libraries with Python. Incorporates real-time 
                                 feedback on mistakes made by users. Co-authoring a soon-to-be published 
                                 research paper on the project'
-                            tech='Python, OpenCV, Open Sound Control'
+                            tech='Python, OpenCV, Open Sound Control, Unity'
                             link_names={['','']}
                             links={['', '']}
                             icons={['','']}
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <NewCard
+                        <Card
                             company='University of Florida'
-                            img='../../images/uf_logo_100.png'
+                            img='../../images/uf_seal.png'
                             alt='UF logo'
                             dates='January 2020 – May 2020'
                             position='Full Stack Developer, Gator Trader'
@@ -46,9 +46,9 @@ export default function NewCards() {
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <NewCard
+                        <Card
                             company='XDG Technologies'
-                            img='../../images/xdg_logo_100.png'
+                            img='../../images/xdg_logo_full.png'
                             alt='XDG Technologies logo'
                             dates='October 2019 - December 2019'
                             position='Front-End Developer, XDG Technologies Website'
@@ -58,14 +58,14 @@ export default function NewCards() {
                                 usign Stripe.'
                             tech='React, React-Router, Bootstrap, Heroku'
                             link_names={['XDG Website','GitHub']}
-                            links={['', 'https://github.com/CEN30315A/Site/']}
+                            links={['http://xdg-site.herokuapp.com/', 'https://github.com/CEN30315A/Site/']}
                             icons={['fas fa-link', 'fab fa-github']}
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <NewCard
+                        <Card
                             company='Burnley Consulting'
-                            img='../../images/site_logo_100.png'
+                            img='../../images/shrug_full.png'
                             alt='No logo available'
                             dates='May 2018 - August 2018'
                             position='Software Engineer Intern'

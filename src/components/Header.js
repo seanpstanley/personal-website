@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
 import './Header.css';
-import TypingAgain from './TypingAgain';
+import TypingEffect from './TypingEffect';
 
 export default function Header() {
     return (
         <div className='header-container'>
             <h1>
-                <TypingAgain
+                <TypingEffect
                     words={["cd ..", "cd /\"sean stanley\""]}
                 />
             </h1>

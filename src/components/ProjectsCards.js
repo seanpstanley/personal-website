@@ -1,20 +1,20 @@
 import React from 'react'
-import './NewCard.css'
-import NewCard from './NewCard'
-import TypingAgain from './TypingAgain'
+import './Cards.css'
+import Card from './Card'
+import TypingEffect from './TypingEffect'
 
 export default function ProjectsCards() {
     return (
         <div className='cards'>
-            <TypingAgain 
+            <TypingEffect 
                 words={["cd ..", "cd /projects"]}
             />
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <NewCard 
+                        <Card 
                             company='5easy Tabletop RPG Aide'
-                            img='../../images/site_logo_100.png'
+                            img='../../images/site_logo.png'
                             alt='Site logo'
                             dates=''
                             position=''
@@ -28,9 +28,9 @@ export default function ProjectsCards() {
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <NewCard
+                        <Card
                             company='Personal Website'
-                            img='../../images/site_logo_100.png'
+                            img='../../images/site_logo.png'
                             alt='Site logo'
                             dates=''
                             position=''
