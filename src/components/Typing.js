@@ -4,7 +4,7 @@ import './Typing.css';
 import './NewTyping.css';
 /*import Typewriter from 'typewriter-effect';*/
 
-function Typing () {
+function Typing (props) {
     return (
         /*<div class='typing-container'>*/
         /*<div class='typing-demo'>
@@ -15,8 +15,8 @@ function Typing () {
             <p>
                 i'm a software developer who likes Javascript, React, and UX. i'm currently a senior at not cornell university. 
             </p>*/
-            <div className='parent'>
-                FUCK YOU.
+            <div className='parent' >
+                {props.directory}
                 <div className='border'></div>
             </div>
         /*</div>*/

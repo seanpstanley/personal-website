@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.navbar-image {
+  border-radius: 50%;
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
@@ -118,7 +122,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(5%, 30%);
+    /*transform: translate(25%, 50%);*/
   }
 
   .menu-icon {
@@ -126,7 +131,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 80%);
     font-size: 1.8rem;
     cursor: pointer;
   }
