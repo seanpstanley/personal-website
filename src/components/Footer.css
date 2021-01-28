@@ -66,6 +66,11 @@
     color: #c5c6c7;
     text-decoration: none;
 }
+
+.footer-link-items a > h2{
+    color: #ffffff;
+    text-decoration: none;
+}
   
 .footer-link-items a:hover {
     color: #66fcf1;

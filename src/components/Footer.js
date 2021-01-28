@@ -17,18 +17,24 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>work experience</h2>
-            <Link to='/experience'>see stuff i've worked on</Link>
+            <Link to='/experience'>
+              <h2>work experience</h2>
+              see stuff i've worked on
+            </Link>
           </div>
           <div className='footer-link-items'>
-            <h2>projects</h2>
-            <Link to='/projects'>check out personal projects</Link>
+            <Link to='/projects'>
+              <h2>projects</h2>
+              check out personal projects
+            </Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>about me</h2>
-            <Link to='/about'>self explanatory</Link>
+            <Link to='/about'> 
+              <h2>about me</h2>
+              self explanatory
+            </Link>
           </div>
           <div className='footer-link-items'>
             <h2>social media</h2>
