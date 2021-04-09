@@ -22,11 +22,11 @@ export default function ExperienceCards() {
                                 augmented reality learning platform for prototyping electronic circuits using 
                                 OpenCV&#39;s deep learning libraries with Python. Incorporates real-time 
                                 feedback on mistakes made by users. Co-authoring a soon-to-be published 
-                                research paper on the project'
+                                research paper on the project.'
                             tech='Python, OpenCV, Open Sound Control, Unity'
-                            link_names={['','']}
-                            links={['', '']}
-                            icons={['','']}
+                            // link_names={['','']}
+                            // links={['', '']}
+                            // icons={['','']}
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -40,9 +40,9 @@ export default function ExperienceCards() {
                                 for UF&#39;s Textbook Exchange web service with goals of modernizing the 
                                 site&#39;s look and reducing load times by at least 50%.'
                             tech='React, React-Router, Bootstrap, Express'
-                            link_names={['GitHub','']}
+                            link_names={['GitHub']}
                             links={['https://github.com/seanpstanley/react-gator-trader/', '']}
-                            icons={['fab fa-github', '']}
+                            icons={['fab fa-github']}
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -56,7 +56,7 @@ export default function ExperienceCards() {
                                 React web application. Used Figma to mock up high-fidelity prototypes of 
                                 modular React components. Included order and payment processing functionality
                                 usign Stripe.'
-                            tech='React, React-Router, Bootstrap, Heroku'
+                            tech='React, React-Router, Bootstrap, Heroku, MongoDB'
                             link_names={['XDG Website','GitHub']}
                             links={['http://xdg-site.herokuapp.com/', 'https://github.com/CEN30315A/Site/']}
                             icons={['fas fa-link', 'fab fa-github']}
@@ -74,9 +74,6 @@ export default function ExperienceCards() {
                             neural networks (DNN) module with Java to facilitate recognition of several 
                             kinds of objects that the robot interacted with contextually.'
                             tech='Java, OpenCV'
-                            link_names={['','']}
-                            links={['', '']}
-                            icons={['', '']}
                         />
                     </ul>
                 </div>

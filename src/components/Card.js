@@ -7,18 +7,17 @@ export default function Card(props) {
             <div className='card-link'>
                 <div className='profile-sidebar'>
                     <img className='profile-image' src={props.img} alt={props.alt} />
-                    <ul className='social-list'>
-                        <li className='social-item'>
-                            <a aria-label={props.link_names[0]} className='social-link' href={props.links[0]}>
-                                <i class={props.icons[0]} />
-                            </a>
-                        </li>
-                        <li className='social-item'>
-                            <a aria-label={props.link_names[1]} className='social-link' href={props.links[1]}>
-                                <i class={props.icons[1]} />
-                            </a>
-                        </li>
-                    </ul>
+                    {Array.isArray(props.icons) && (  
+                        <ul className='social-list'>
+                            {props.icons.map((icon, idx) => 
+                                <li className='social-item'>
+                                    <a aria-label={props.link_names[idx]} className='social-link' href={props.links[idx]}>
+                                        <i class={props.icons[idx]} />
+                                    </a>
+                                </li>
+                            )}
+                        </ul>
+                    )}
                 </div> 
                 <div className='profile-main'>
                     <h2 className='profile-name'>{props.company}</h2>

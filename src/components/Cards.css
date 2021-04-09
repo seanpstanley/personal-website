@@ -1,132 +1,138 @@
 .cards {
-    padding: 4rem;
-    background-color: #1f2833;
-    color: #66fcf1;
+  padding: 4rem;
+  background-color: #1f2833;
+  color: #66fcf1;
 }
-  
+
 .cards__container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
 }
-  
+
 .cards__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
+  position: relative;
+  margin: 50px 0 45px;
 }
-  
+
 .cards__items {
-    margin-bottom: 24px;
-    justify-content: center;
+  margin-bottom: 24px;
+  justify-content: center;
 }
 
 .card {
-    display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    max-width: 620px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    background-color: #45829e;
-    color: white;
-    text-align: center;
-    padding: 2em;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  max-width: 620px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #45829e;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  transition: all 0.5s ease;
+}
+.card:hover,
+.card:focus {
+  -webkit-box-shadow: 0 0 5px 1px #66fcf1;
+  -moz-box-shadow: 0 0 5px 1px #66fcf1;
+  box-shadow: 0 0 5px 1px #66fcf1;
 }
 
 .card-link {
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-  }
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
 
 .profile-name {
-    font-size: 2rem;
-    line-height: 1.1;
+  margin-top: 0.7rem;
+  font-size: 2rem;
+  line-height: 1.1;
 }
 
 .profile-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .profile-dates {
-    font-size: 1.1rem;
-    margin: 0em auto 1em;
+  font-size: 1.1rem;
+  margin: 0em auto 1em;
 }
 
 .profile-position {
-    font-size: 1.1rem;
-    margin:0;
-    color: #66fcf1;
-    margin-bottom: 1em;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #66fcf1;
+  margin-bottom: 1em;
 }
 
 .profile-body {
-    font-size: 1.1rem;
-    color: #c5c6c7;
-    margin-bottom: 1em;
+  font-size: 1.1rem;
+  color: #c5c6c7;
+  margin-bottom: 1em;
 }
 
 .profile-tech {
-    font-size: 1.1rem;
-    text-align: right;
-    color: #66fcf1;
+  font-size: 1.1rem;
+  text-align: right;
+  color: #66fcf1;
 }
 
 .social-list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0.7em;
-    width: 125px;
-    margin: 0 auto;
-    font-size: 1.35em;    
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  max-width: 125px;
+  margin: 0.7em auto 0 auto;
+  font-size: 1.35em;
 }
 
 .social-link {
-    color: #c5c6c7;
-    padding: 0.6em;
+  color: #c5c6c7;
+  padding: 0.6em;
+  transition: all 0.3s ease;
 }
 
 .social-link:hover,
 .social-link:focus {
-    color: #66fcf1;
-    transition: 0.3s ease-out;
+  color: #66fcf1;
 }
 
 @media (min-width: 600px) {
-    .card {
-        flex-direction: row;
-    }
+  .card {
+    flex-direction: row;
+  }
 
-    .profile-main {
-        text-align: left;
-        margin-left: 2em;
-    }
+  .profile-main {
+    text-align: left;
+    margin-left: 2em;
+  }
 
-    .profile-name::after {
-        margin-left: 0;
-    }
+  .profile-name::after {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .card-link {
-        flex-flow: column;
-    }   
+  .card-link {
+    flex-flow: column;
+  }
 
-    .card {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 2rem;
-    }
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
 
-    .profile-tech {
-        text-align: center;
-    }
+  .profile-tech {
+    text-align: center;
+  }
 }
