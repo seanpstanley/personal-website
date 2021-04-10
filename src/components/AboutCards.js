@@ -7,7 +7,7 @@ export default function AboutCards() {
     return (
         <div className='cards'>
             <TypingEffect 
-                words={["cd ..", "cd /about_me"]}
+                words={["cd ..", "cd about_me"]}
             />
             <div className='cards__container'>
                 <div className='cards__wrapper'>

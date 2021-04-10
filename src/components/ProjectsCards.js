@@ -7,7 +7,7 @@ export default function ProjectsCards() {
     return (
         <div className='cards'>
             <TypingEffect 
-                words={["cd ..", "cd /projects"]}
+                words={["cd ..", "cd projects"]}
             />
             <div className='cards__container'>
                 <div className='cards__wrapper'>

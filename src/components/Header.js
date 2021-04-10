@@ -8,7 +8,7 @@ export default function Header() {
         <div className='header-container'>
             <h1>
                 <TypingEffect
-                    words={["cd ..", "cd /\"sean stanley\""]}
+                    words={["cd ..", "cd \"sean stanley\""]}
                 />
             </h1>
             <p>

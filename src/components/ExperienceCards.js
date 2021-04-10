@@ -7,7 +7,7 @@ export default function ExperienceCards() {
     return (
         <div className='cards'>
             <TypingEffect 
-                words={["cd ..", "cd /work_experience"]}
+                words={["cd ..", "cd work_experience"]}
             />
             <div className='cards__container'>
                 <div className='cards__wrapper'>
